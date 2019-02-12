@@ -1,21 +1,20 @@
+import './mount';
 import $ from 'jquery';
 import { readData } from './reader';
 import {
-  writeNextTodo,
-  writeTodoCount,
   toggleTodoList,
-  toggleTodoEmpty,
   addTodo,
   removeTodo
 } from './writer';
+import { mutations } from './ObservableStore';
 
 function updateAll() {
   const { count, nextTodoText } = readData();
 
-  writeNextTodo(nextTodoText);
-  writeTodoCount(count);
+  mutations.updateNextTodoText(nextTodoText);
+  mutations.updateTodoCount(count);
+
   toggleTodoList(count);
-  toggleTodoEmpty(count);
 }
 $(function () {
   $('#addTodo').on('click', function () {

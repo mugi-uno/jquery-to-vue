@@ -8,6 +8,6 @@ export default {}
 
 <style>
 .sample {
-color: red;
+  color: red;
 }
 </style>

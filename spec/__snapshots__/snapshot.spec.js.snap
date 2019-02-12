@@ -5,14 +5,32 @@ exports[`TODO アプリ タスクの⼊⼒ 1`] = `
     <meta charset=\\"utf-8\\">
     <link rel=\\"stylesheet\\" href=\\"./css/style.css\\">
     <title>TODO</title>
-  </head>
+  <style type=\\"text/css\\">
+span[data-v-a5c1973e] {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+</style><style type=\\"text/css\\">
+span[data-v-20403811] {
+  font-size: 0.8em;
+}
+</style><style type=\\"text/css\\">
+div[data-v-7b0b1d4f] {
+  border-radius: 5px;
+  border: 1px dashed gray;
+  margin: 20px 0px;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+}
+</style></head>
   <body>
     <button id=\\"addTodo\\">タスクを追加する</button>
     <div id=\\"todoList\\" style=\\"\\"><div class=\\"todo\\"><input type=\\"text\\"><button class=\\"delete\\">削除</button></div><div class=\\"todo\\"><input type=\\"text\\"><button class=\\"delete\\">削除</button></div></div>
-    <div id=\\"todoEmpty\\" style=\\"display: none;\\">タスクがありません</div>
+    <div data-v-7b0b1d4f=\\"\\" id=\\"todoEmpty\\" style=\\"display: none;\\">タスクがありません</div>
     <div>
-      <span id=\\"nextTodo\\">次のTODO: サンプルタスク1</span>
-      <span id=\\"todoCount\\">(全2件)</span>
+      <span data-v-a5c1973e=\\"\\" id=\\"nextTodo\\">次のTODO: サンプルタスク1</span>
+      <span data-v-20403811=\\"\\" id=\\"todoCount\\">(全2件)</span>
     </div>
     <script src=\\"./dist/main.js\\"></script>
    
@@ -25,14 +43,32 @@ exports[`TODO アプリ タスクの削除 1`] = `
     <meta charset=\\"utf-8\\">
     <link rel=\\"stylesheet\\" href=\\"./css/style.css\\">
     <title>TODO</title>
-  </head>
+  <style type=\\"text/css\\">
+span[data-v-a5c1973e] {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+</style><style type=\\"text/css\\">
+span[data-v-20403811] {
+  font-size: 0.8em;
+}
+</style><style type=\\"text/css\\">
+div[data-v-7b0b1d4f] {
+  border-radius: 5px;
+  border: 1px dashed gray;
+  margin: 20px 0px;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+}
+</style></head>
   <body>
     <button id=\\"addTodo\\">タスクを追加する</button>
     <div id=\\"todoList\\" style=\\"display: none;\\"></div>
-    <div id=\\"todoEmpty\\" style=\\"\\">タスクがありません</div>
+    <div data-v-7b0b1d4f=\\"\\" id=\\"todoEmpty\\" style=\\"\\">タスクがありません</div>
     <div>
-      <span id=\\"nextTodo\\">次のTODO: (未登録)</span>
-      <span id=\\"todoCount\\">(全0件)</span>
+      <span data-v-a5c1973e=\\"\\" id=\\"nextTodo\\">次のTODO: (未登録)</span>
+      <span data-v-20403811=\\"\\" id=\\"todoCount\\">(全0件)</span>
     </div>
     <script src=\\"./dist/main.js\\"></script>
    
@@ -45,14 +81,32 @@ exports[`TODO アプリ タスクの追加 1`] = `
     <meta charset=\\"utf-8\\">
     <link rel=\\"stylesheet\\" href=\\"./css/style.css\\">
     <title>TODO</title>
-  </head>
+  <style type=\\"text/css\\">
+span[data-v-a5c1973e] {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+</style><style type=\\"text/css\\">
+span[data-v-20403811] {
+  font-size: 0.8em;
+}
+</style><style type=\\"text/css\\">
+div[data-v-7b0b1d4f] {
+  border-radius: 5px;
+  border: 1px dashed gray;
+  margin: 20px 0px;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+}
+</style></head>
   <body>
     <button id=\\"addTodo\\">タスクを追加する</button>
     <div id=\\"todoList\\" style=\\"\\"><div class=\\"todo\\"><input type=\\"text\\"><button class=\\"delete\\">削除</button></div><div class=\\"todo\\"><input type=\\"text\\"><button class=\\"delete\\">削除</button></div></div>
-    <div id=\\"todoEmpty\\" style=\\"display: none;\\">タスクがありません</div>
+    <div data-v-7b0b1d4f=\\"\\" id=\\"todoEmpty\\" style=\\"display: none;\\">タスクがありません</div>
     <div>
-      <span id=\\"nextTodo\\">次のTODO: </span>
-      <span id=\\"todoCount\\">(全2件)</span>
+      <span data-v-a5c1973e=\\"\\" id=\\"nextTodo\\">次のTODO: </span>
+      <span data-v-20403811=\\"\\" id=\\"todoCount\\">(全2件)</span>
     </div>
     <script src=\\"./dist/main.js\\"></script>
    
@@ -65,14 +119,32 @@ exports[`TODO アプリ 初期表⽰ 1`] = `
     <meta charset=\\"utf-8\\">
     <link rel=\\"stylesheet\\" href=\\"./css/style.css\\">
     <title>TODO</title>
-  </head>
+  <style type=\\"text/css\\">
+span[data-v-a5c1973e] {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+</style><style type=\\"text/css\\">
+span[data-v-20403811] {
+  font-size: 0.8em;
+}
+</style><style type=\\"text/css\\">
+div[data-v-7b0b1d4f] {
+  border-radius: 5px;
+  border: 1px dashed gray;
+  margin: 20px 0px;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+}
+</style></head>
   <body>
     <button id=\\"addTodo\\">タスクを追加する</button>
     <div id=\\"todoList\\" style=\\"display: none;\\"></div>
-    <div id=\\"todoEmpty\\">タスクがありません</div>
+    <div data-v-7b0b1d4f=\\"\\" id=\\"todoEmpty\\">タスクがありません</div>
     <div>
-      <span id=\\"nextTodo\\">次のTODO: (未登録)</span>
-      <span id=\\"todoCount\\">(全0件)</span>
+      <span data-v-a5c1973e=\\"\\" id=\\"nextTodo\\">次のTODO: (未登録)</span>
+      <span data-v-20403811=\\"\\" id=\\"todoCount\\">(全0件)</span>
     </div>
     <script src=\\"./dist/main.js\\"></script>
    
