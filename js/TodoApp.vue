@@ -21,6 +21,7 @@ import TodoEmpty from './TodoEmpty';
 import NextTodo from './NextTodo';
 import TodoCount from './TodoCount';
 import AddTodoButton from './AddTodoButton';
+import { mapState, mapGetters, mapMutations } from 'vuex'
 
 export default {
   components: {
@@ -31,39 +32,23 @@ export default {
     AddTodoButton
   },
 
-  data() {
-    return {
-      todoList: []
-    };
-  },
-
   computed: {
-    todoCount() {
-      return this.todoList.length;
-    },
-    visibleTodoList() {
-      return this.todoCount > 0;
-    },
-    nextTodo() {
-      return this.todoCount > 0 ? this.todoList[0].todo : '(未登録)';
-    }
+    ...mapState([
+      'todoList'
+    ]),
+    ...mapGetters([
+      'todoCount',
+      'visibleTodoList',
+      'nextTodo'
+    ])
   },
 
   methods: {
-    addTodo() {
-      this.todoList.push({
-        key: new Date().getTime(),
-        todo: ''
-      });
-    },
-
-    removeTodo(index) {
-      this.todoList.splice(index, 1);
-    },
-
-    updateTodo({ index, value }) {
-      this.todoList[index].todo = value;
-    }
+    ...mapMutations([
+      'addTodo',
+      'removeTodo',
+      'updateTodo'
+    ])
   }
 };
 </script>
