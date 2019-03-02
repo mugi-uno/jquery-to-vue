@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "jQuery to Vue.jsで学ぶ レガシーフロントエンド改善入門ガイド サンプルコード",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "jest": "^24.1.0",
+    "jest-puppeteer": "^4.0.0",
+    "puppeteer": "^1.12.2"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "jest"
