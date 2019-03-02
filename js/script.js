@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 function updateAll() {
   var count = $('.todo').length;
   var next = $('.todo input').first();
