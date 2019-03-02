@@ -4,10 +4,15 @@
   "description": "jQuery to Vue.jsで学ぶ レガシーフロントエンド改善入門ガイド サンプルコード",
   "main": "index.js",
   "dependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
     "jest": "^24.1.0",
     "jest-image-snapshot": "^2.8.1",
     "jest-puppeteer": "^4.0.0",
-    "puppeteer": "^1.12.2"
+    "puppeteer": "^1.12.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
   },
   "devDependencies": {},
   "scripts": {
