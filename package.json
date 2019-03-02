@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "jest": "^24.1.0",
+    "jest-image-snapshot": "^2.8.1",
     "jest-puppeteer": "^4.0.0",
     "puppeteer": "^1.12.2"
   },
