@@ -11,7 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest"
+    "test": "jest spec/e2e.spec.js visual.spec.js",
+    "test:all": "jest"
   },
   "repository": {
     "type": "git",
