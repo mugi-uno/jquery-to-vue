@@ -2,6 +2,7 @@
   <todo-list
     :todo-list='todoList'
     :visible='visibleTodoList'
+    @update='updateTodo($event)'
   />
 </template>
 
@@ -49,6 +50,10 @@ export default {
 
     removeTodo(index) {
       this.todoList.splice(index, 1);
+    },
+
+    updateTodo({ index, value }) {
+      this.todoList[index].todo = value;
     }
   }
 };

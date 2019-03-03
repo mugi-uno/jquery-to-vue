@@ -1,11 +1,15 @@
 <template>
   <div id='todoList' v-show='visible'>
     <div
-      v-for='todo in todoList'
+      v-for='(todo, index) in todoList'
       :key='todo.key'
       class='todo'
     >
-      <input type='text' />
+      <input
+        type='text'
+        :value='todo.todo'
+        @input='updateTodo(index, $event.target.value)'
+      />
       <button class='delete'>削除</button>
     </div>
   </div>
@@ -16,6 +20,12 @@ export default {
   props: {
     todoList: { type: Array, default: () => [] },
     visible: { type: Boolean, default: false }
+  },
+
+  methods: {
+    updateTodo(index, value) {
+      this.$emit('update', { index, value });
+    }
   }
 };
 </script>
