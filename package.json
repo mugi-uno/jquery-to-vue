@@ -1,0 +1,21 @@
+{
+  "name": "jquery-to-vue",
+  "version": "1.0.0",
+  "description": "jQuery to Vue.jsで学ぶ レガシーフロントエンド改善入門ガイド サンプルコード",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mugi-uno/jquery-to-vue.git"
+  },
+  "author": "mugi-uno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mugi-uno/jquery-to-vue/issues"
+  },
+  "homepage": "https://github.com/mugi-uno/jquery-to-vue#readme"
+}
