@@ -1,8 +1,8 @@
 import './mount';
+import Vue from 'vue';
 import $ from 'jquery';
 import { readData } from './reader';
 import {
-  toggleTodoList,
   addTodo,
   removeTodo
 } from './writer';
@@ -16,23 +16,21 @@ function updateAll() {
 
   EventBus.$emit(UPDATE_NEXT_TODO_TEXT, nextTodoText);
   EventBus.$emit(UPDATE_TODO_COUNT, count);
-
-  toggleTodoList(count);
 }
 
-$(function () {
-  $('#addTodo').on('click', function () {
+$(function() {
+  $('#addTodo').on('click', function() {
     addTodo();
+    Vue.nextTick(() => updateAll());
+  });
+
+  $('#todoList').on('input', '.todo:eq(0)', function() {
     updateAll();
   });
 
-  $('#todoList').on('input', '.todo:eq(0)', function () {
-    updateAll();
-  });
-
-  $('#todoList').on('click', '.delete', function () {
+  $('#todoList').on('click', '.delete', function() {
     removeTodo(this, $('#todoList').find('.delete').index(this));
-    updateAll();
+    Vue.nextTick(() => updateAll());
   });
 
   updateAll();

@@ -1,14 +1,20 @@
 <template>
-  <div v-if='false'></div>
+  <todo-list
+    :todo-list='todoList'
+    :visible='visibleTodoList'
+  />
 </template>
 
 <script>
+import TodoList from './TodoList';
 import EventBus, {
   ADD_TODO,
   REMOVE_TODO
 } from './EventBus';
 
 export default {
+  components: { TodoList },
+
   data() {
     return {
       todoList: []
@@ -22,6 +28,15 @@ export default {
     EventBus.$on(REMOVE_TODO, (index) => {
       this.removeTodo();
     });
+  },
+
+  computed: {
+    todoCount() {
+      return this.todoList.length;
+    },
+    visibleTodoList() {
+      return this.todoCount > 0;
+    }
   },
 
   methods: {
