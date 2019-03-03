@@ -35,10 +35,19 @@ span[data-v-a5c1973e] {
 span[data-v-20403811] {
   font-size: 0.8em;
 }
+</style><style type=\\"text/css\\">
+#addTodo[data-v-4e599241] {
+  font-size: 1.2rem;
+}
 </style></head>
   <body>
-    <button id=\\"addTodo\\">タスクを追加する</button>
-    <div><div data-v-4e956b0c=\\"\\" id=\\"todoList\\" style=\\"\\"><div data-v-4e956b0c=\\"\\" class=\\"todo\\"><input data-v-4e956b0c=\\"\\" type=\\"text\\"><button data-v-4e956b0c=\\"\\" class=\\"delete\\">削除</button></div><div data-v-4e956b0c=\\"\\" class=\\"todo\\"><input data-v-4e956b0c=\\"\\" type=\\"text\\"><button data-v-4e956b0c=\\"\\" class=\\"delete\\">削除</button></div></div><div data-v-7b0b1d4f=\\"\\" id=\\"todoEmpty\\" style=\\"display: none;\\">タスクがありません</div><div><span data-v-a5c1973e=\\"\\" id=\\"nextTodo\\">次のTODO: サンプルタスク1</span><span data-v-20403811=\\"\\" id=\\"todoCount\\">(全2件)</span></div></div>
+    <div><button data-v-4e599241=\\"\\" id=\\"addTodo\\">
+  タスクを追加する
+</button><div data-v-4e956b0c=\\"\\" id=\\"todoList\\" style=\\"\\"><div data-v-4e956b0c=\\"\\" class=\\"todo\\"><input data-v-4e956b0c=\\"\\" type=\\"text\\"><button data-v-4e956b0c=\\"\\" class=\\"delete\\">
+      削除
+    </button></div><div data-v-4e956b0c=\\"\\" class=\\"todo\\"><input data-v-4e956b0c=\\"\\" type=\\"text\\"><button data-v-4e956b0c=\\"\\" class=\\"delete\\">
+      削除
+    </button></div></div><div data-v-7b0b1d4f=\\"\\" id=\\"todoEmpty\\" style=\\"display: none;\\">タスクがありません</div><div><span data-v-a5c1973e=\\"\\" id=\\"nextTodo\\">次のTODO: サンプルタスク1</span><span data-v-20403811=\\"\\" id=\\"todoCount\\">(全2件)</span></div></div>
     <script src=\\"./dist/main.js\\"></script>
   
 
@@ -80,10 +89,15 @@ span[data-v-a5c1973e] {
 span[data-v-20403811] {
   font-size: 0.8em;
 }
+</style><style type=\\"text/css\\">
+#addTodo[data-v-4e599241] {
+  font-size: 1.2rem;
+}
 </style></head>
   <body>
-    <button id=\\"addTodo\\">タスクを追加する</button>
-    <div><div data-v-4e956b0c=\\"\\" id=\\"todoList\\" style=\\"display: none;\\"></div><div data-v-7b0b1d4f=\\"\\" id=\\"todoEmpty\\" style=\\"\\">タスクがありません</div><div><span data-v-a5c1973e=\\"\\" id=\\"nextTodo\\">次のTODO: (未登録)</span><span data-v-20403811=\\"\\" id=\\"todoCount\\">(全0件)</span></div></div>
+    <div><button data-v-4e599241=\\"\\" id=\\"addTodo\\">
+  タスクを追加する
+</button><div data-v-4e956b0c=\\"\\" id=\\"todoList\\" style=\\"display: none;\\"></div><div data-v-7b0b1d4f=\\"\\" id=\\"todoEmpty\\" style=\\"\\">タスクがありません</div><div><span data-v-a5c1973e=\\"\\" id=\\"nextTodo\\">次のTODO: (未登録)</span><span data-v-20403811=\\"\\" id=\\"todoCount\\">(全0件)</span></div></div>
     <script src=\\"./dist/main.js\\"></script>
   
 
@@ -125,10 +139,19 @@ span[data-v-a5c1973e] {
 span[data-v-20403811] {
   font-size: 0.8em;
 }
+</style><style type=\\"text/css\\">
+#addTodo[data-v-4e599241] {
+  font-size: 1.2rem;
+}
 </style></head>
   <body>
-    <button id=\\"addTodo\\">タスクを追加する</button>
-    <div><div data-v-4e956b0c=\\"\\" id=\\"todoList\\" style=\\"\\"><div data-v-4e956b0c=\\"\\" class=\\"todo\\"><input data-v-4e956b0c=\\"\\" type=\\"text\\"><button data-v-4e956b0c=\\"\\" class=\\"delete\\">削除</button></div><div data-v-4e956b0c=\\"\\" class=\\"todo\\"><input data-v-4e956b0c=\\"\\" type=\\"text\\"><button data-v-4e956b0c=\\"\\" class=\\"delete\\">削除</button></div></div><div data-v-7b0b1d4f=\\"\\" id=\\"todoEmpty\\" style=\\"display: none;\\">タスクがありません</div><div><span data-v-a5c1973e=\\"\\" id=\\"nextTodo\\">次のTODO: </span><span data-v-20403811=\\"\\" id=\\"todoCount\\">(全2件)</span></div></div>
+    <div><button data-v-4e599241=\\"\\" id=\\"addTodo\\">
+  タスクを追加する
+</button><div data-v-4e956b0c=\\"\\" id=\\"todoList\\" style=\\"\\"><div data-v-4e956b0c=\\"\\" class=\\"todo\\"><input data-v-4e956b0c=\\"\\" type=\\"text\\"><button data-v-4e956b0c=\\"\\" class=\\"delete\\">
+      削除
+    </button></div><div data-v-4e956b0c=\\"\\" class=\\"todo\\"><input data-v-4e956b0c=\\"\\" type=\\"text\\"><button data-v-4e956b0c=\\"\\" class=\\"delete\\">
+      削除
+    </button></div></div><div data-v-7b0b1d4f=\\"\\" id=\\"todoEmpty\\" style=\\"display: none;\\">タスクがありません</div><div><span data-v-a5c1973e=\\"\\" id=\\"nextTodo\\">次のTODO: </span><span data-v-20403811=\\"\\" id=\\"todoCount\\">(全2件)</span></div></div>
     <script src=\\"./dist/main.js\\"></script>
   
 
@@ -170,10 +193,15 @@ span[data-v-a5c1973e] {
 span[data-v-20403811] {
   font-size: 0.8em;
 }
+</style><style type=\\"text/css\\">
+#addTodo[data-v-4e599241] {
+  font-size: 1.2rem;
+}
 </style></head>
   <body>
-    <button id=\\"addTodo\\">タスクを追加する</button>
-    <div><div data-v-4e956b0c=\\"\\" id=\\"todoList\\" style=\\"display: none;\\"></div><div data-v-7b0b1d4f=\\"\\" id=\\"todoEmpty\\">タスクがありません</div><div><span data-v-a5c1973e=\\"\\" id=\\"nextTodo\\">次のTODO: (未登録)</span><span data-v-20403811=\\"\\" id=\\"todoCount\\">(全0件)</span></div></div>
+    <div><button data-v-4e599241=\\"\\" id=\\"addTodo\\">
+  タスクを追加する
+</button><div data-v-4e956b0c=\\"\\" id=\\"todoList\\" style=\\"display: none;\\"></div><div data-v-7b0b1d4f=\\"\\" id=\\"todoEmpty\\">タスクがありません</div><div><span data-v-a5c1973e=\\"\\" id=\\"nextTodo\\">次のTODO: (未登録)</span><span data-v-20403811=\\"\\" id=\\"todoCount\\">(全0件)</span></div></div>
     <script src=\\"./dist/main.js\\"></script>
   
 
