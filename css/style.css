@@ -10,7 +10,7 @@ body {
   font-size: 1.2rem;
 }
 
-#todoList, #todoEmpty {
+#todoList {
   border-radius: 5px;
   border: 1px dashed gray;
   margin: 20px 0px;
@@ -21,13 +21,4 @@ body {
 
 .todo input {
   width: 80%;
-}
-
-#nextTodo {
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
-#todoCount {
-  font-size: 0.8em;
 }
