@@ -31,7 +31,7 @@ $(function () {
   });
 
   $('#todoList').on('click', '.delete', function () {
-    removeTodo(this);
+    removeTodo(this, $('#todoList').find('.delete').index(this));
     updateAll();
   });
 
