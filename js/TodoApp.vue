@@ -1,20 +1,35 @@
 <template>
-  <todo-list
-    :todo-list='todoList'
-    :visible='visibleTodoList'
-    @update='updateTodo($event)'
-  />
+  <div>
+    <todo-list
+      :todo-list='todoList'
+      :visible='visibleTodoList'
+      @update='updateTodo($event)'
+    />
+    <todo-empty :visible='!visibleTodoList' />
+    <div>
+      <next-todo :next-todo-text='nextTodo' />
+      <todo-count :count='todoCount' />
+    </div>
+  </div>
 </template>
 
 <script>
 import TodoList from './TodoList';
+import TodoEmpty from './TodoEmpty';
+import NextTodo from './NextTodo';
+import TodoCount from './TodoCount';
 import EventBus, {
   ADD_TODO,
   REMOVE_TODO
 } from './EventBus';
 
 export default {
-  components: { TodoList },
+  components: {
+    TodoList,
+    TodoEmpty,
+    NextTodo,
+    TodoCount
+  },
 
   data() {
     return {
@@ -37,6 +52,9 @@ export default {
     },
     visibleTodoList() {
       return this.todoCount > 0;
+    },
+    nextTodo() {
+      return this.todoCount > 0 ? this.todoList[0].todo : '(未登録)';
     }
   },
 
